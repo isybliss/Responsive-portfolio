@@ -580,10 +580,16 @@ img{
     margin-right: var(--mb-0-25);
 }
 
-.qualification_data{
+/***.qualification_data{
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+}
+***/
+.qualification_data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .qualification_title{
